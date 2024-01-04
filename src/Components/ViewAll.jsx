@@ -48,10 +48,13 @@ const ViewAll = () => {
                 <table class="table">
                   <thead>
                     <tr>
-                      <th scope="col">  Sl No</th>
+                      <th scope="col"> Sl No</th>
+                      {/* <th scope="col"> ID Nation</th> */}
                       <th scope="col">Nation</th>
+                      {/* <th scope="col">ID Year</th> */}
                       <th scope="col">Year</th>
                       <th scope="col">Population</th>
+                      {/* <th scope="col">Slug Nation</th> */}
                     </tr>
                   </thead>
                   <tbody>
@@ -59,12 +62,12 @@ const ViewAll = () => {
                       return (
                         <tr>
                           <th scope="row">1</th>
-                          {/* <td>{value.ID Nation}</td> */}
+                          {/* <td>{value.ID_Nation}</td> */}
                           <td>{value.Nation}</td>
                           <td>{value.Year}</td>
-                          {/* <td>{value.ID Year}</td> */}
+                          {/* <td>{value.ID_Year}</td> */}
                           <td>{value.Population}</td>
-                          {/* <td>{value.Slug Nation}</td> */}
+                          {/* <td>{value.Slug_Nation}</td> */}
                         </tr>
                       );
                     })}
